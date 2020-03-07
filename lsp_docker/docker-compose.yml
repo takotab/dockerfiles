@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  lsp-lab:
+    build: .
+    ports:
+      - '8888:8888'
